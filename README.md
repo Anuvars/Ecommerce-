@@ -31,3 +31,55 @@ It provides secure authentication, dynamic product management, and a responsive 
 ---
 
 ## 🧱 Project Structure
+MERN-Ecommerce/
+│
+├── backend/
+│ ├── server.js
+│ ├── config/
+│ ├── controllers/
+│ ├── models/
+│ ├── routes/
+│ ├── middleware/
+│ └── utils/
+│
+├── frontend/
+│ ├── src/
+│ │ ├── components/
+│ │ ├── pages/
+│ │ ├── redux/
+│ │ └── utils/
+│ ├── public/
+│ └── package.json
+│
+└── README.md
+
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/<your-username>/mern-ecommerce-webapp.git
+cd mern-ecommerce-webapp
+
+2️⃣ Install Dependencies
+cd backend && npm install
+cd ../frontend && npm install
+
+3️⃣ Configure Environment Variables
+
+Create a .env file in the backend/ folder and add:
+
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+PORT=5000
+
+4️⃣ Run the App
+# Run backend
+cd backend
+npm run dev
+
+# Run frontend
+cd ../frontend
+npm start
